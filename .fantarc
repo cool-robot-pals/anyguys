@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     ports: {
         test: 1234,
-        live: 3000
+        live: 1234
     },
     paths: {
         screenie: path.resolve(__dirname, 'dest', 'screenie.png')

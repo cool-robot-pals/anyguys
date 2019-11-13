@@ -10,9 +10,14 @@
 		"express": "^4.16.3",
 		"get-image-colors": "^2.0.0",
 		"jest": "^24.0.0",
+		"large-number-names": "^1.2.1",
 		"node-emoji": "^1.8.1",
 		"node-vibrant": "^3.1.1",
 		"noun-json": "^1.0.1",
+		"number-names": "^1.0.2",
+		"parcel": "^1.12.4",
+		"parcel-bundler": "^1.12.4",
+		"pluralize": "^8.0.0",
 		"puppeteer": "^1.4.0",
 		"twemoji": "^12.0.0",
 		"twit": "^2.2.9",
@@ -22,7 +27,7 @@
 	"devDependencies": {},
 	"scripts": {
 		"test": "jest",
-		"start": "node ./app.js"
+		"start": "parcel code/index.html"
 	},
 	"repository": {
 		"type": "git",

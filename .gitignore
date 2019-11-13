@@ -5,3 +5,4 @@ dest/*
 .env
 .glitch-assets
 .vscode
+.cache
