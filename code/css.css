@@ -42,6 +42,7 @@ h1 {
 	font-family: "helv";
 	text-transform: uppercase;
 	font-size: 120px;
+	line-height: calc(120px * 1);
 	color: var(--blue);
 	letter-spacing: -0.03em;
 }
@@ -49,6 +50,7 @@ h1 {
 h1 span {
 	font-size: 0.3em;
 	vertical-align: text-top;
+	line-height: 35px;
 }
 
 h1 strong {
@@ -58,6 +60,7 @@ h1 strong {
 
 h2 {
 	font-size: 70px;
+	line-height: calc(70px * 1.1);
 	margin-top: 30px;
 }
 
