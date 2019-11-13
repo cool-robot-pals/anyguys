@@ -25,7 +25,9 @@ const buildUpFanta = $guys => {
 		document.body.dataset.inverted = "true";
 	}
 
-	return { number, words };
+	const tweet = [`${number} guys`.toUpperCase(), words.map(w => w.toUpperCase()).join(" and ")].join("\n");
+
+	return { number, words, tweet };
 };
 
 const go = () => {
